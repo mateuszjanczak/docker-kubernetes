@@ -16,4 +16,18 @@ $ docker run -p 8080:8080 -d mateuszjanczak/example-app
 
 ```sh
 $ docker image push mateuszjanczak/example-app
- ```
+```
+
+## Kubernetes
+
+### Create a deployment
+
+```sh
+$ kubectl apply -f deployment.yaml
+```
+
+### Create a service
+
+```sh
+$ kubectl apply -f service.yaml
+```
